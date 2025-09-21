@@ -14,6 +14,6 @@ match priority:
             print("ok its can be deligated.")
     case "low":
         if time_bound == "yes":
-            print(f"it is a {priority} priority task so you cando that late.a")
+            print(f"finish {task} because it's time bound and, Reminder: that requires immediate attention today!")
         else:
             print("Do it when its necessary.")
