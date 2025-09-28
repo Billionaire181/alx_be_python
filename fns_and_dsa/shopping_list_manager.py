@@ -10,11 +10,11 @@ while true:
     display_menu()
     choice = input("Enter your choice: ")
     if choice == 1:
-        item_name = input("Enter item name: ")
+        item_name = input("Enter the itemt to add: ")
         shopping_list.append(item_name)
         pass
     elif choice == 2:
-        item_removed = input("Name of item removed: ")
+        item_removed = input("Enter item to remove: ")
         shopping_list.append(item_removed)
         pass
     elif choice == 3:
