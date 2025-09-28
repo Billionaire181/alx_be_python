@@ -2,7 +2,7 @@ from datetime import datetime
 
 def display_current_datetime():
     NOW = datetime.datetime.now()
-    current_date = NOW.strftime("%Y-%m-%D %H:%M:%S")
+    current_date = NOW.strftime("%Y-%m-%d  %H:%M:%S")
     print(f"current date: {current_date}")
 
 def calculate_future_date(days):
