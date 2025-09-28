@@ -1,4 +1,4 @@
-import datetime
+from datetie import datetime
 
 def display_current_datetime():
     NOW = datetime.datetime.now()
