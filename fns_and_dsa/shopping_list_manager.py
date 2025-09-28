@@ -5,7 +5,7 @@ def display_menu():
     print("3. View list")
     print("4. Exit")
 
-shopping_list[]
+shopping_list = []
 while true:
     display_menu()
     choice = input("Enter your choice: ")
@@ -18,7 +18,7 @@ while true:
         shopping_list.append(item_removed)
         pass
     elif choice == 3:
-        shopping_list[]
+        shopping_list = []
         pass
     elif choice == 4:
         print("Goodbye")
