@@ -1,6 +1,6 @@
 def safe_divide(numerator, denominator):
     try:
-        divide = numerator / denominator
+        divide = float(numerator / denominator)
         print(f"The result of the division is {divide}")
 
     except ZeroDivisionError:
