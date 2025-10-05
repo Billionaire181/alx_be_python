@@ -43,7 +43,7 @@ class Library:
         for book in self._books:
             if book.title == title:
                 if book._is_checked_out:
-                    book._is_checked_out = False
+                    book.is_checked_out = False
                     print(f"'{book.title}' has been returned.")
                 else:
                     print("This book wasn’t checked out.")
