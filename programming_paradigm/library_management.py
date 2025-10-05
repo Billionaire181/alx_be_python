@@ -38,7 +38,7 @@ class Library:
                 return
         print("Book not found in the library.")
 
-    def return_book(self, title):
+    def return_book(self):
         """Mark a book as returned (available again)"""
         for book in self._books:
             if book.title == title:
