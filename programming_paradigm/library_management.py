@@ -1,6 +1,6 @@
 class Book:
-    def __init__(self, title, Author):
-        self.Author = Author
+    def __init__(self, title, author):
+        self.author = author
         sekf.title = title
         self.is_checked_out = False
 
