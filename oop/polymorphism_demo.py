@@ -1,12 +1,12 @@
 import math
-class shape:
+class Shape:
     def area(self):
         raise NotimplementedError
 
-class Rectangele(shape):
+class Rectangele(Shape):
     def area(self, legth, width):
         return length * width
 
-class circle(shape):
+class circle(Shape):
     def area(self, radius):
         return math.pi * radius **2
